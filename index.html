@@ -1,0 +1,1019 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Despido Cero Riesgo</title>
+<meta name="description" content="Abogados laboralistas especializados en despidos en Cataluña. Haz el test de viabilidad gratuito y, si tu caso es viable, recibe 10 minutos de asesoramiento gratuito. Sin provisión de fondos: si no cobras, no cobramos. Te atendemos en castellano, catalán e inglés.">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#3F6FA3">
+<meta property="og:type" content="website">
+<meta property="og:title" content="¿Te han despedido? Reclamamos tu indemnización sin que adelantes nada">
+<meta property="og:description" content="Abogados laboralistas en Barcelona, Girona, Tarragona y Lleida. Test de viabilidad gratuito y 10 minutos de asesoramiento gratuito.">
+<meta property="og:image" content="foto-portada.jpg">
+<meta property="og:locale" content="es_ES">
+<meta property="og:locale:alternate" content="ca_ES">
+<meta property="og:locale:alternate" content="en_GB">
+<link rel="alternate" hreflang="es-ES" href="https://EJEMPLO.cat/">
+<link rel="alternate" hreflang="ca-ES" href="https://EJEMPLO.cat/ca/">
+<link rel="alternate" hreflang="en" href="https://EJEMPLO.cat/en/">
+<link rel="alternate" hreflang="x-default" href="https://EJEMPLO.cat/">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+
+<style>
+/* ============================================================
+   COLORES · azules suaves + acento dorado (no subir la saturación)
+   ============================================================ */
+:root{
+  --paper:#F4F7FB;
+  --surface:#FFFFFF;
+  --surface-2:#EAF0F6;
+  --ink:#25323F;
+  --ink-2:#5F6F80;
+  --line:#DCE4EE;
+  --line-strong:#C0CCDA;
+  --primary:#3F6FA3;
+  --primary-2:#2F5786;
+  --primary-soft:#E4EDF7;
+  --on-primary:#FFFFFF;
+  --ochre:#94722F;
+  --ochre-soft:#F7F0DF;
+  --alert:#AD5650;
+  --alert-soft:#F9ECEA;
+  --ok:#3B7C66;
+  --ok-soft:#E4F1EB;
+  --shadow:0 1px 2px rgba(37,50,63,.04), 0 10px 28px -16px rgba(37,50,63,.18);
+  --shadow-lift:0 2px 6px rgba(37,50,63,.06), 0 20px 44px -22px rgba(63,111,163,.30);
+
+  --display:"Archivo","Helvetica Neue",Arial,sans-serif;
+  --body:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --mono:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+
+  --fs-xs:.75rem; --fs-sm:.8125rem; --fs-base:1.0625rem; --fs-md:1.1875rem;
+  --fs-2xl:clamp(1.75rem,3.6vw,2.25rem);
+  --fs-hero:clamp(2.2rem,5vw,3.6rem);
+  --r-sm:3px; --r:6px; --r-lg:12px;
+  --wrap:1100px;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#141B23; --surface:#1B242E; --surface-2:#232E3A;
+    --ink:#DDE5EE; --ink-2:#9BAABA; --line:#2C3845; --line-strong:#3D4B5A;
+    --primary:#8DB7E3; --primary-2:#B0CEEE; --primary-soft:#1C3047; --on-primary:#0B1E33;
+    --ochre:#D9BC82; --ochre-soft:#2E291A;
+    --alert:#DD9189; --alert-soft:#342421;
+    --ok:#86C4AA; --ok-soft:#1A2E28;
+    --shadow:0 1px 2px rgba(0,0,0,.5), 0 12px 30px -16px rgba(0,0,0,.8);
+    --shadow-lift:0 2px 8px rgba(0,0,0,.55), 0 24px 54px -22px rgba(0,0,0,.9);
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#141B23; --surface:#1B242E; --surface-2:#232E3A;
+  --ink:#DDE5EE; --ink-2:#9BAABA; --line:#2C3845; --line-strong:#3D4B5A;
+  --primary:#8DB7E3; --primary-2:#B0CEEE; --primary-soft:#1C3047; --on-primary:#0B1E33;
+  --ochre:#D9BC82; --ochre-soft:#2E291A;
+  --alert:#DD9189; --alert-soft:#342421;
+  --ok:#86C4AA; --ok-soft:#1A2E28;
+  --shadow:0 1px 2px rgba(0,0,0,.5), 0 12px 30px -16px rgba(0,0,0,.8);
+  --shadow-lift:0 2px 8px rgba(0,0,0,.55), 0 24px 54px -22px rgba(0,0,0,.9);
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth; scroll-padding-top:80px}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:var(--body); font-size:var(--fs-base); line-height:1.62;
+  -webkit-font-smoothing:antialiased;
+}
+h1,h2,h3,h4{font-family:var(--display); font-weight:800; line-height:1.08; letter-spacing:-.022em; text-wrap:balance; margin:0}
+h2{font-size:var(--fs-2xl)}
+p{margin:0}
+a{color:inherit}
+img,svg{max-width:100%}
+:focus-visible{outline:2.5px solid var(--ochre); outline-offset:3px; border-radius:2px}
+@media (prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;transition-duration:.01ms!important} html{scroll-behavior:auto}}
+
+.wrap{max-width:var(--wrap); margin-inline:auto; padding-inline:20px}
+.prose{max-width:62ch}
+.mono{font-family:var(--mono); font-variant-numeric:tabular-nums}
+.eyebrow{
+  font-family:var(--mono); font-size:var(--fs-xs); letter-spacing:.13em;
+  text-transform:uppercase; color:var(--primary); margin:0 0 12px; display:block; font-weight:600;
+}
+.lede{font-size:var(--fs-md); color:var(--ink-2); line-height:1.6; margin-top:14px}
+section{padding-block:clamp(52px,7vw,84px)}
+.alt-bg{background:var(--surface); border-block:1px solid var(--line)}
+
+/* --- Botones --- */
+.btn{
+  display:inline-flex; align-items:center; justify-content:center; gap:9px;
+  font-family:var(--display); font-weight:700; font-size:.97rem; letter-spacing:-.005em;
+  padding:15px 24px; border-radius:var(--r); border:1.5px solid transparent;
+  text-decoration:none; cursor:pointer; transition:transform .14s ease, box-shadow .14s ease, background .14s;
+}
+.btn-primary{background:var(--primary); color:var(--on-primary); box-shadow:var(--shadow)}
+.btn-primary:hover{transform:translateY(-2px); box-shadow:var(--shadow-lift)}
+.btn-ghost{background:transparent; color:var(--ink); border-color:var(--line-strong)}
+.btn-ghost:hover{border-color:var(--primary); color:var(--primary)}
+.btn-ochre{background:var(--ochre); color:#fff}
+:root[data-theme="dark"] .btn-ochre{color:#2A1F08}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .btn-ochre{color:#2A1F08}}
+.btn-sm{padding:10px 16px; font-size:.85rem}
+.btn-block{width:100%}
+.cta-row{display:flex; gap:12px; flex-wrap:wrap; margin-top:26px}
+
+/* --- Barra de plazo --- */
+.topbar{background:var(--alert); color:#fff; font-family:var(--mono); font-size:var(--fs-sm)}
+:root[data-theme="dark"] .topbar{color:#2A0F0B}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .topbar{color:#2A0F0B}}
+.topbar .wrap{display:flex; gap:10px; align-items:center; justify-content:center; padding-block:9px; text-align:center; flex-wrap:wrap}
+
+/* --- Cabecera --- */
+header.nav{position:sticky; top:0; z-index:50; background:color-mix(in srgb,var(--paper) 90%, transparent); backdrop-filter:blur(12px); border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex; align-items:center; gap:18px; padding-block:12px}
+.brand{display:flex; align-items:center; gap:10px; text-decoration:none; margin-right:auto}
+.brand-mark{width:34px; height:34px; flex:none}
+.brand-txt{display:flex; flex-direction:column; line-height:1.05}
+.brand-txt strong{font-family:var(--display); font-weight:800; font-size:1.02rem; letter-spacing:-.02em}
+.brand-txt span{font-family:var(--mono); font-size:.62rem; letter-spacing:.17em; text-transform:uppercase; color:var(--ink-2)}
+.navlinks{display:flex; gap:22px}
+.navlinks a{font-family:var(--display); font-weight:600; font-size:.9rem; text-decoration:none; color:var(--ink-2)}
+.navlinks a:hover{color:var(--primary)}
+@media(max-width:860px){.navlinks{display:none}}
+@media(max-width:420px){.nav .btn-sm{display:none}}
+.langsw{display:flex; border:1.5px solid var(--line-strong); border-radius:var(--r); overflow:hidden; flex:none}
+.langsw button{
+  font-family:var(--mono); font-size:.72rem; font-weight:600; letter-spacing:.08em;
+  padding:7px 10px; border:0; background:transparent; color:var(--ink-2); cursor:pointer;
+}
+.langsw button[aria-pressed="true"]{background:var(--primary); color:var(--on-primary)}
+
+/* --- Portada --- */
+.hero{position:relative; overflow:hidden; padding-block:clamp(36px,6vw,72px)}
+.euros{position:absolute; inset:0; color:var(--primary); opacity:.06; pointer-events:none}
+:root[data-theme="dark"] .euros{opacity:.09}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .euros{opacity:.09}}
+.hero .wrap{position:relative}
+.hero-grid{display:grid; grid-template-columns:1.25fr .75fr; gap:clamp(28px,5vw,64px); align-items:center}
+@media(max-width:860px){.hero-grid{grid-template-columns:1fr}}
+h1{font-size:var(--fs-hero); margin-bottom:6px}
+h1 em{
+  font-style:normal; color:var(--primary);
+  background-image:linear-gradient(var(--ochre),var(--ochre));
+  background-size:100% .15em; background-position:0 92%; background-repeat:no-repeat;
+}
+.chips{display:flex; flex-wrap:wrap; gap:8px; margin:22px 0 0; list-style:none; padding:0}
+.chips li{
+  font-family:var(--mono); font-size:var(--fs-xs); letter-spacing:.03em;
+  padding:6px 11px; border-radius:100px; background:var(--primary-soft); color:var(--primary);
+}
+:root[data-theme="dark"] .chips li{color:var(--primary-2)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .chips li{color:var(--primary-2)}}
+
+.hero-photo{position:relative; margin:0}
+.hero-photo img{
+  display:block; width:100%; height:auto; aspect-ratio:4/5; object-fit:cover; object-position:center 18%;
+  border-radius:var(--r-lg); box-shadow:var(--shadow-lift); background:var(--primary-soft);
+}
+.hero-photo figcaption{
+  position:absolute; left:-18px; bottom:26px; max-width:230px;
+  background:var(--surface); border:1.5px solid var(--line); border-left:4px solid var(--ok);
+  border-radius:var(--r); padding:12px 14px; box-shadow:var(--shadow);
+  font-family:var(--display); font-weight:700; font-size:.92rem; line-height:1.3;
+}
+.hero-photo figcaption span{display:block; font-family:var(--mono); font-weight:500; font-size:var(--fs-xs); color:var(--ink-2); margin-top:4px}
+@media(max-width:860px){
+  .hero-photo{max-width:440px}
+  .hero-photo img{aspect-ratio:4/3; object-position:center 12%}
+  .hero-photo figcaption{left:12px; bottom:12px}
+}
+
+/* --- Cómo funciona --- */
+.how-grid{display:grid; grid-template-columns:1fr 1fr; gap:clamp(28px,5vw,56px); align-items:center}
+@media(max-width:860px){.how-grid{grid-template-columns:1fr}}
+.steps{list-style:none; margin:28px 0 0; padding:0; display:flex; flex-direction:column; gap:22px}
+.steps li{display:flex; gap:16px; align-items:flex-start}
+.steps .n{
+  flex:none; width:38px; height:38px; border-radius:50%; display:grid; place-items:center;
+  background:var(--primary); color:var(--on-primary); font-family:var(--mono); font-weight:600;
+}
+.steps h3{font-size:1.08rem; margin:6px 0 4px}
+.steps p{font-size:.97rem; color:var(--ink-2)}
+.photo{margin:0}
+.photo img{display:block; width:100%; height:auto; border-radius:var(--r-lg); box-shadow:var(--shadow); background:var(--primary-soft)}
+
+/* --- Test de viabilidad --- */
+.tool{background:var(--surface); border:1.5px solid var(--line); border-top:5px solid var(--primary); border-radius:var(--r-lg); box-shadow:var(--shadow); max-width:720px; margin:30px auto 0}
+.tool-body{padding:clamp(20px,4vw,30px)}
+.test-head{text-align:center}
+.test-head .prose{margin-inline:auto}
+.field{display:flex; flex-direction:column; gap:6px}
+.field > label, .qlabel{
+  font-family:var(--mono); font-size:var(--fs-xs); text-transform:uppercase;
+  letter-spacing:.1em; color:var(--ink-2);
+}
+.pair{display:grid; grid-template-columns:1fr 1fr; gap:14px}
+@media(max-width:520px){.pair{grid-template-columns:1fr}}
+input[type=date], input[type=number], select{
+  width:100%; font-family:var(--mono); font-size:1rem; color:var(--ink);
+  background:var(--surface); border:1.5px solid var(--line-strong); border-radius:var(--r);
+  padding:12px; -webkit-appearance:none; appearance:none;
+}
+select{background-image:linear-gradient(45deg,transparent 50%,currentColor 50%),linear-gradient(135deg,currentColor 50%,transparent 50%); background-position:calc(100% - 18px) 50%,calc(100% - 13px) 50%; background-size:5px 5px,5px 5px; background-repeat:no-repeat; padding-right:36px}
+input:focus,select:focus{border-color:var(--primary); outline:none; box-shadow:0 0 0 3px var(--primary-soft)}
+
+.q{display:none}
+.q.on{display:block; animation:fade .3s ease}
+@keyframes fade{from{opacity:0; transform:translateY(6px)}to{opacity:1; transform:none}}
+.qlabel{display:block; margin-bottom:4px}
+.qtitle{font-family:var(--display); font-weight:700; font-size:1.28rem; letter-spacing:-.015em; margin:6px 0 18px; text-wrap:balance}
+.opts{display:grid; gap:9px}
+.opt{
+  display:flex; align-items:center; gap:11px; padding:13px 15px; cursor:pointer;
+  border:1.5px solid var(--line-strong); border-radius:var(--r); background:var(--surface);
+  font-size:.97rem; transition:border-color .12s, background .12s;
+}
+.opt:hover{border-color:var(--primary); background:var(--primary-soft)}
+.opt input{accent-color:var(--primary); width:17px; height:17px; flex:none; margin:0}
+.opt.sel{border-color:var(--primary); background:var(--primary-soft)}
+.progress{height:5px; background:var(--line); border-radius:100px; overflow:hidden; margin-bottom:22px}
+.progress i{display:block; height:100%; background:var(--primary); transition:width .3s ease; border-radius:100px}
+.qnav{display:flex; gap:10px; margin-top:22px; align-items:center}
+.qnav .count{margin-left:auto; font-family:var(--mono); font-size:var(--fs-xs); color:var(--ink-2)}
+.note{font-family:var(--mono); font-size:var(--fs-xs); line-height:1.65; color:var(--ink-2); margin-top:14px}
+.note a{color:var(--primary)}
+#qMsg{color:var(--alert); margin:12px 0 0}
+#qMsg:empty{display:none}
+
+.verdict{border-radius:var(--r-lg); padding:22px; border:2px solid}
+.verdict .badge{font-family:var(--mono); font-size:var(--fs-xs); letter-spacing:.13em; text-transform:uppercase; font-weight:600}
+.verdict h4{font-family:var(--display); font-weight:800; font-size:1.45rem; letter-spacing:-.02em; margin:8px 0 10px}
+.v-ok{border-color:var(--ok); background:var(--ok-soft)} .v-ok .badge{color:var(--ok)}
+.v-no{border-color:var(--alert); background:var(--alert-soft)} .v-no .badge{color:var(--alert)}
+.checklist{list-style:none; padding:0; margin:14px 0 0; display:flex; flex-direction:column; gap:8px; font-size:.95rem}
+.checklist li{display:flex; gap:10px; align-items:flex-start}
+.checklist .ico{flex:none; font-family:var(--mono); font-weight:600; color:var(--primary)}
+.liq{list-style:none; padding:0; margin:18px 0 0; display:flex; flex-direction:column}
+.liq li{display:flex; justify-content:space-between; gap:16px; align-items:baseline; padding:9px 0; border-bottom:1px dotted var(--line-strong); font-size:.95rem}
+.liq li:last-child{border-bottom:0}
+.liq .k{color:var(--ink-2)}
+.liq .v{font-family:var(--mono); font-variant-numeric:tabular-nums; font-weight:500; text-align:right}
+.liq li.total{border-top:2px solid var(--ink); margin-top:6px; padding-top:14px}
+.liq li.total .k{font-family:var(--display); font-weight:700; color:var(--ink)}
+.liq li.total .v{font-family:var(--display); font-weight:800; font-size:1.7rem; color:var(--primary); letter-spacing:-.02em}
+.contact{margin-top:20px; padding:20px; border-radius:var(--r); background:var(--surface); border:1.5px solid var(--line)}
+.contact h5{font-family:var(--display); font-weight:800; font-size:1.12rem; letter-spacing:-.015em; margin:0 0 8px}
+.contact p{font-size:.95rem; color:var(--ink-2)}
+.contact .cta-row{margin-top:16px}
+.contact .alt{font-family:var(--mono); font-size:var(--fs-xs); margin-top:14px; overflow-wrap:anywhere}
+.contact .alt a{color:var(--primary)}
+
+/* --- Honorarios --- */
+.fees{display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:30px}
+@media(max-width:700px){.fees{grid-template-columns:1fr}}
+.fee{border:1.5px solid var(--line); border-radius:var(--r-lg); padding:24px; background:var(--paper)}
+.fee .pct{font-family:var(--display); font-weight:800; font-size:3rem; line-height:1; letter-spacing:-.04em; color:var(--primary)}
+.fee h3{font-size:1.05rem; margin:10px 0 6px}
+.fee p{font-size:.93rem; color:var(--ink-2)}
+.fee .ex{margin-top:14px; padding-top:12px; border-top:1px dashed var(--line-strong); font-family:var(--mono); font-size:var(--fs-sm); color:var(--ink-2); line-height:1.8}
+.fee .ex b{color:var(--ink); font-weight:600}
+.zero{display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:var(--line); border:1px solid var(--line); border-radius:var(--r-lg); overflow:hidden; margin-top:28px}
+@media(max-width:620px){.zero{grid-template-columns:1fr}}
+.zero div{background:var(--paper); padding:18px 20px}
+.zero strong{display:block; font-family:var(--display); font-weight:800; font-size:1.5rem; color:var(--primary); letter-spacing:-.02em}
+.zero span{font-size:.9rem; color:var(--ink-2)}
+.exception{margin-top:20px; padding:16px 18px; border:1.5px solid var(--ochre); background:var(--ochre-soft); border-radius:var(--r)}
+.exception strong{display:block; font-family:var(--display); font-weight:700; font-size:.95rem; color:var(--ochre); margin-bottom:6px}
+.exception p{font-size:.92rem; color:var(--ink-2); line-height:1.6}
+
+/* --- Quiénes somos --- */
+.about-grid{display:grid; grid-template-columns:.9fr 1.1fr; gap:clamp(28px,5vw,56px); align-items:center}
+@media(max-width:860px){.about-grid{grid-template-columns:1fr}}
+.about-grid .photo{max-width:480px}
+.ticks{list-style:none; padding:0; margin:22px 0 0; display:flex; flex-direction:column; gap:10px}
+.ticks li{display:flex; gap:10px; align-items:flex-start; font-size:.98rem}
+.ticks li::before{content:"✓"; flex:none; font-family:var(--mono); font-weight:600; color:var(--ok)}
+
+/* --- Preguntas --- */
+.faq{margin:26px auto 0; max-width:780px; border-top:1px solid var(--line)}
+details{border-bottom:1px solid var(--line)}
+summary{
+  cursor:pointer; list-style:none; padding:19px 44px 19px 0; position:relative;
+  font-family:var(--display); font-weight:700; font-size:1.05rem; letter-spacing:-.012em; text-wrap:balance;
+}
+summary::-webkit-details-marker{display:none}
+summary::after{
+  content:"+"; position:absolute; right:6px; top:16px; font-family:var(--mono);
+  font-size:1.5rem; font-weight:400; color:var(--primary); transition:transform .2s;
+}
+details[open] summary::after{transform:rotate(45deg)}
+details .ans{padding:0 44px 22px 0; color:var(--ink-2)}
+details .ans p + p{margin-top:12px}
+details .ans strong{color:var(--ink)}
+.center{text-align:center}
+
+/* --- Cierre --- */
+.finale{background:var(--primary); color:var(--on-primary); border-radius:var(--r-lg); padding:clamp(32px,5vw,54px); text-align:center}
+.finale h2{margin-bottom:12px}
+.finale p{max-width:54ch; margin-inline:auto; opacity:.92; font-size:var(--fs-md)}
+.finale .cta-row{justify-content:center}
+
+/* --- Pie --- */
+footer{background:var(--surface); border-top:1px solid var(--line); padding-block:36px 30px}
+.foot-links{display:flex; flex-wrap:wrap; gap:8px 22px; list-style:none; padding:0; margin:0; font-family:var(--display); font-weight:600; font-size:.88rem}
+footer a{color:var(--ink-2); text-decoration:none}
+footer a:hover{color:var(--primary)}
+.legalid{margin-top:22px; padding-top:18px; border-top:1px solid var(--line); font-family:var(--mono); font-size:var(--fs-xs); color:var(--ink-2); line-height:1.9}
+.legalid a{text-decoration:underline}
+
+.sticky-cta{position:fixed; left:14px; right:14px; bottom:14px; z-index:60; display:none}
+@media(max-width:700px){.sticky-cta{display:block} footer{padding-bottom:92px}}
+.sticky-cta .btn{box-shadow:var(--shadow-lift)}
+.skip{position:absolute; left:-9999px}
+.skip:focus{left:12px; top:12px; z-index:99; background:var(--surface); padding:10px 14px; border-radius:var(--r)}
+</style>
+</head>
+<body>
+
+<a href="#test" class="skip" data-i18n="skip">Ir al test</a>
+
+<!-- ══ BARRA DE PLAZO ══ -->
+<div class="topbar"><div class="wrap">
+  <span data-i18n="topbar">⏳ Solo tienes 20 días hábiles desde el despido para reclamar.</span>
+  <a href="#test" style="color:inherit" data-i18n-html="topbarLink"><b>Haz el test ahora →</b></a>
+</div></div>
+
+<!-- ══ CABECERA ══ -->
+<header class="nav"><div class="wrap">
+  <a class="brand" href="#top">
+    <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
+      <rect width="40" height="40" rx="7" fill="var(--primary)"/>
+      <path d="M20 8.5 L30 12.5 V21 c0 6.2-4.2 9.4-10 10.9C14.2 30.4 10 27.2 10 21 v-8.5z" fill="none" stroke="var(--on-primary)" stroke-width="2.1" stroke-linejoin="round"/>
+      <path d="M15.4 20.2 L18.8 23.6 L25.2 16.6" fill="none" stroke="var(--on-primary)" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <span class="brand-txt">
+      <strong data-i18n="brand">Defensa Laboral</strong>
+      <span data-i18n="brandSub">Despidos · Catalunya</span>
+    </span>
+  </a>
+  <nav class="navlinks">
+    <a href="#test" data-i18n="navTest">Test</a>
+    <a href="#honorarios" data-i18n="navFees">Honorarios</a>
+    <a href="#faq" data-i18n="navFaq">Preguntas</a>
+  </nav>
+  <div class="langsw" role="group" aria-label="Idioma">
+    <button type="button" data-lang="es" aria-pressed="true">ES</button>
+    <button type="button" data-lang="ca" aria-pressed="false">CA</button>
+    <button type="button" data-lang="en" aria-pressed="false">EN</button>
+  </div>
+  <a href="#test" class="btn btn-primary btn-sm" data-i18n="navCta">Test gratuito</a>
+</div></header>
+
+<main>
+<a id="top"></a>
+
+<!-- ══ PORTADA ══ -->
+<div class="hero">
+  <svg class="euros" aria-hidden="true" width="100%" height="100%">
+    <defs><pattern id="eur" width="104" height="104" patternUnits="userSpaceOnUse" patternTransform="rotate(-14)">
+      <text x="26" y="42" font-family="Archivo, Helvetica, Arial, sans-serif" font-size="46" font-weight="700" fill="currentColor">€</text>
+      <text x="78" y="94" font-family="Archivo, Helvetica, Arial, sans-serif" font-size="46" font-weight="700" fill="currentColor">€</text>
+    </pattern></defs>
+    <rect width="100%" height="100%" fill="url(#eur)"/>
+  </svg>
+  <div class="wrap"><div class="hero-grid">
+    <div>
+      <span class="eyebrow" data-i18n="heroEyebrow">Abogados de despidos · Toda Cataluña</span>
+      <h1 data-i18n-html="heroH1">Te han despedido. Lo reclamamos y tú <em>no adelantas ni un euro</em>.</h1>
+      <p class="lede prose" data-i18n-html="heroLede">Haz el test gratuito: en dos minutos sabrás si tu caso es viable. Si lo es, te contactamos y tienes <strong>10 minutos de asesoramiento gratuito</strong>. Y si tú no cobras, nosotros no cobramos.</p>
+      <div class="cta-row">
+        <a href="#test" class="btn btn-primary" data-i18n="heroCta">Hacer el test gratuito · 2 min</a>
+      </div>
+      <ul class="chips">
+        <li data-i18n="chip1">✓ Sin provisión de fondos</li>
+        <li data-i18n="chip2">✓ 10 min de asesoramiento gratis</li>
+        <li data-i18n="chip3">✓ Te atendemos en castellano, catalán e inglés</li>
+      </ul>
+    </div>
+    <figure class="hero-photo">
+      <img src="foto-portada.jpg" width="900" height="1350" alt="Abogada del equipo con maletín a la entrada del juzgado" data-i18n-alt="altHero">
+      <figcaption data-i18n-html="heroBadge">No cobramos si tú no cobras<span>Honorarios solo a resultado</span></figcaption>
+    </figure>
+  </div></div>
+</div>
+
+<!-- ══ CÓMO FUNCIONA ══ -->
+<section class="alt-bg">
+  <div class="wrap how-grid">
+    <div>
+      <span class="eyebrow" data-i18n="howEyebrow">Cómo funciona</span>
+      <h2 data-i18n="howH">Tres sencillos pasos</h2>
+      <ol class="steps">
+        <li><span class="n">1</span><div><h3 data-i18n="s1h">Haces el test</h3><p data-i18n="s1p">Siete preguntas, gratis y sin dar tus datos. Te dice al momento si tu caso es viable.</p></div></li>
+        <li><span class="n">2</span><div><h3 data-i18n="s2h">Si es viable, nos escribes</h3><p data-i18n="s2p">El propio test te prepara el correo con tus respuestas. Solo añades tu nombre y teléfono.</p></div></li>
+        <li><span class="n">3</span><div><h3 data-i18n="s3h">Te contactamos nosotros</h3><p data-i18n="s3p">10 minutos de asesoramiento gratuito. Si seguimos adelante, reclamamos en conciliación y, si hace falta, en el juzgado.</p></div></li>
+      </ol>
+    </div>
+    <figure class="photo">
+      <img src="foto-equipo.jpg" width="1400" height="933" loading="lazy" alt="Miembros del equipo de abogados, en el despacho y a la salida del juzgado" data-i18n-alt="altTeam">
+    </figure>
+  </div>
+</section>
+
+<!-- ══ TEST DE VIABILIDAD ══ -->
+<section id="test">
+  <div class="wrap">
+    <div class="test-head">
+      <span class="eyebrow" data-i18n="testEyebrow">Test de viabilidad · gratuito y anónimo</span>
+      <h2 data-i18n="testH">¿Merece la pena reclamar tu despido?</h2>
+      <p class="lede prose" data-i18n="testLede">Contesta siete preguntas y al momento sabrás si tu caso es viable. Si lo es, podrás escribirnos desde el propio resultado.</p>
+    </div>
+
+    <div class="tool"><div class="tool-body">
+      <div class="progress"><i id="prog" style="width:14%"></i></div>
+
+      <div class="q on" data-step="1">
+        <span class="qlabel" data-i18n="q1l">Pregunta 1 de 7</span>
+        <p class="qtitle" data-i18n="q1t">¿Dónde estaba tu centro de trabajo?</p>
+        <div class="opts">
+          <label class="opt"><input type="radio" name="zona" value="bcn"><span data-i18n="q1a">Provincia de Barcelona</span></label>
+          <label class="opt"><input type="radio" name="zona" value="gi"><span data-i18n="q1b">Girona</span></label>
+          <label class="opt"><input type="radio" name="zona" value="ta"><span data-i18n="q1c">Tarragona</span></label>
+          <label class="opt"><input type="radio" name="zona" value="ll"><span data-i18n="q1d">Lleida</span></label>
+          <label class="opt"><input type="radio" name="zona" value="fuera"><span data-i18n="q1e">Fuera de Cataluña</span></label>
+        </div>
+      </div>
+
+      <div class="q" data-step="2">
+        <span class="qlabel" data-i18n="q2l">Pregunta 2 de 7</span>
+        <p class="qtitle" data-i18n="q2t">¿Cómo te han despedido?</p>
+        <div class="opts">
+          <label class="opt"><input type="radio" name="tipo" value="disc"><span data-i18n="q2a">Despido disciplinario (me acusan de algo)</span></label>
+          <label class="opt"><input type="radio" name="tipo" value="obj"><span data-i18n="q2b">Despido objetivo (causas económicas, productivas u organizativas)</span></label>
+          <label class="opt"><input type="radio" name="tipo" value="verbal"><span data-i18n="q2c">Verbal: me echaron sin darme nada por escrito</span></label>
+          <label class="opt"><input type="radio" name="tipo" value="temp"><span data-i18n="q2d">Fin de contrato temporal o no renovación</span></label>
+          <label class="opt"><input type="radio" name="tipo" value="ere"><span data-i18n="q2e">ERE o despido colectivo</span></label>
+        </div>
+      </div>
+
+      <div class="q" data-step="3">
+        <span class="qlabel" data-i18n="q3l">Pregunta 3 de 7</span>
+        <p class="qtitle" data-i18n="q3t">¿Tienes la carta de despido y explica los hechos y las fechas?</p>
+        <div class="opts">
+          <label class="opt"><input type="radio" name="carta" value="si"><span data-i18n="q3a">Sí, la tengo y está detallada</span></label>
+          <label class="opt"><input type="radio" name="carta" value="vaga"><span data-i18n="q3b">La tengo, pero es genérica o no entiendo los motivos</span></label>
+          <label class="opt"><input type="radio" name="carta" value="no"><span data-i18n="q3c">No me han dado ninguna carta</span></label>
+        </div>
+      </div>
+
+      <div class="q" data-step="4">
+        <span class="qlabel" data-i18n="q4l">Pregunta 4 de 7</span>
+        <p class="qtitle" data-i18n="q4t">¿Qué día te comunicaron el despido?</p>
+        <div class="field"><input type="date" id="tFecha" aria-label="Fecha del despido"></div>
+      </div>
+
+      <div class="q" data-step="5">
+        <span class="qlabel" data-i18n="q5l">Pregunta 5 de 7</span>
+        <p class="qtitle" data-i18n="q5t">¿Desde qué fecha trabajabas en la empresa?</p>
+        <div class="field"><input type="date" id="tAlta" aria-label="Fecha de alta"></div>
+        <p class="note" data-i18n="q5n">Si encadenaste contratos temporales sin interrupciones relevantes, pon la fecha del primero.</p>
+      </div>
+
+      <div class="q" data-step="6">
+        <span class="qlabel" data-i18n="q6l">Pregunta 6 de 7</span>
+        <p class="qtitle" data-i18n="q6t">¿Cuál era tu salario bruto mensual?</p>
+        <div class="pair">
+          <div class="field"><label for="tSal" data-i18n="q6a">Bruto al mes (€)</label><input type="number" id="tSal" min="0" step="10" placeholder="1800" inputmode="decimal"></div>
+          <div class="field"><label for="tPagas" data-i18n="q6b">Pagas al año</label>
+            <select id="tPagas"><option value="12">12</option><option value="14" selected>14</option><option value="15">15</option></select>
+          </div>
+        </div>
+      </div>
+
+      <div class="q" data-step="7">
+        <span class="qlabel" data-i18n="q7l">Pregunta 7 de 7</span>
+        <p class="qtitle" data-i18n="q7t">¿Se daba alguna de estas situaciones cuando te despidieron?</p>
+        <div class="opts" id="flags">
+          <label class="opt"><input type="checkbox" value="emb"><span data-i18n="q7a">Embarazo, permiso de maternidad/paternidad o lactancia</span></label>
+          <label class="opt"><input type="checkbox" value="baja"><span data-i18n="q7b">Baja médica o enfermedad</span></label>
+          <label class="opt"><input type="checkbox" value="recl"><span data-i18n="q7c">Había reclamado salarios, horas extra o denunciado algo</span></label>
+          <label class="opt"><input type="checkbox" value="rep"><span data-i18n="q7d">Representante de los trabajadores o delegado sindical</span></label>
+          <label class="opt"><input type="checkbox" value="conc"><span data-i18n="q7e">Reducción de jornada, conciliación o adaptación horaria</span></label>
+          <label class="opt"><input type="checkbox" value="nada"><span data-i18n="q7f">Ninguna de estas</span></label>
+        </div>
+      </div>
+
+      <div class="q" data-step="8" id="veredicto"></div>
+
+      <p class="note" id="qMsg" role="alert"></p>
+      <div class="qnav">
+        <button type="button" class="btn btn-ghost btn-sm" id="qBack" data-i18n="qBack">Atrás</button>
+        <button type="button" class="btn btn-primary btn-sm" id="qNext" data-i18n="qNext">Siguiente</button>
+        <span class="count" id="qCount">1 / 7</span>
+      </div>
+    </div></div>
+  </div>
+</section>
+
+<!-- ══ HONORARIOS ══ -->
+<section id="honorarios" class="alt-bg">
+  <div class="wrap">
+    <span class="eyebrow" data-i18n="feeEyebrow">Honorarios</span>
+    <h2 data-i18n="feeH">No cobramos si tú no cobras</h2>
+    <p class="lede prose" data-i18n="feeLede">Cobramos un porcentaje de lo que efectivamente ingreses. Sin provisión de fondos, sin cuotas y sin gastos de apertura. Si el caso se pierde, no nos debes nada.</p>
+
+    <div class="zero">
+      <div><strong>0 €</strong><span data-i18n="z1">de provisión de fondos</span></div>
+      <div><strong>0 €</strong><span data-i18n="z2">si perdemos el caso</span></div>
+      <div><strong>10 min</strong><span data-i18n="z3">de asesoramiento inicial gratuito</span></div>
+    </div>
+
+    <div class="fees">
+      <div class="fee">
+        <div class="pct">15 %</div>
+        <h3 data-i18n="fee1h">Si la indemnización supera 7.500 €</h3>
+        <div class="ex" data-i18n-html="fee1e">Ejemplo: indemnización de <b>20.000 €</b><br>15 % → <b>3.000 €</b> + IVA → <b>3.630 €</b></div>
+      </div>
+      <div class="fee">
+        <div class="pct">20 %</div>
+        <h3 data-i18n="fee2h">Si la indemnización es de 7.500 € o menos</h3>
+        <div class="ex" data-i18n-html="fee2e">Ejemplo: indemnización de <b>5.000 €</b><br>20 % → <b>1.000 €</b> + IVA → <b>1.210 €</b></div>
+      </div>
+    </div>
+    <p class="note prose" data-i18n-html="feeNote">A los honorarios se suma el <strong>IVA (21 %)</strong> o el impuesto que corresponda al facturar. La factura se emite <strong>después</strong> de que hayas cobrado. <strong>El encargo se entiende aceptado únicamente con la hoja de encargo firmada.</strong></p>
+
+    <div class="exception">
+      <strong data-i18n="fogH">El único gasto que puede tocarte</strong>
+      <p data-i18n="fogP">Si la empresa es insolvente y hay que acudir al FOGASA, la ley exige un poder notarial de representación. Cuesta entre 60 y 75 € y lo pagas directamente a la notaría. Te avisamos antes.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══ QUIÉNES SOMOS ══ -->
+<section>
+  <div class="wrap about-grid">
+    <figure class="photo">
+      <img src="foto-despacho.jpg" width="1100" height="1100" loading="lazy" alt="Cuatro miembros del equipo de abogados" data-i18n-alt="altAbout">
+    </figure>
+    <div>
+      <span class="eyebrow" data-i18n="aboutEyebrow">Quiénes somos</span>
+      <h2 data-i18n="aboutH">Solo derecho laboral. Solo del lado del trabajador.</h2>
+      <p class="lede prose" data-i18n="aboutLede">Somos un equipo de abogados dedicado a despidos. No defendemos a empresas, así que nunca hay conflicto de intereses contigo.</p>
+      <ul class="ticks">
+        <li data-i18n="ab1">Barcelona, Girona, Tarragona y Lleida</li>
+        <li data-i18n="ab2">Asesoramiento por teléfono o videollamada: no hace falta que te desplaces</li>
+        <li data-i18n="ab3">Te explicamos tu caso sin jerga. Te atendemos en castellano, catalán e inglés</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ══ PREGUNTAS FRECUENTES ══ -->
+<section id="faq" class="alt-bg">
+  <div class="wrap">
+    <div class="center">
+      <span class="eyebrow" data-i18n="faqEyebrow">Preguntas frecuentes</span>
+      <h2 data-i18n="faqH">Lo que todo el mundo nos pregunta</h2>
+    </div>
+    <div class="faq">
+      <details open>
+        <summary data-i18n="fq1">¿Qué pasa si no ganamos el caso?</summary>
+        <div class="ans"><p data-i18n-html="fa1">No pagas <strong>ningún honorario</strong>. Trabajamos solo a resultado: cobramos un porcentaje de lo que tú ingresas. Si tú no ingresas nada, nosotros tampoco. Por eso hacemos el test antes de aceptar un caso.</p></div>
+      </details>
+      <details>
+        <summary data-i18n="fq2">¿Cuánto cobráis exactamente y cuándo?</summary>
+        <div class="ans"><p data-i18n-html="fa2">Un <strong>15 %</strong> si la indemnización supera los 7.500 € y un <strong>20 %</strong> si es de 7.500 € o menos, más el <strong>IVA (21 %)</strong> o el impuesto que corresponda al facturar. La factura se emite <strong>después</strong> de que hayas cobrado. <strong>El encargo se entiende aceptado únicamente con la hoja de encargo firmada.</strong></p></div>
+      </details>
+      <details>
+        <summary data-i18n="fq3">¿Hay algún gasto que sí tenga que pagar yo?</summary>
+        <div class="ans"><p data-i18n-html="fa3">Solo uno, y solo si hay que acudir al <strong>FOGASA</strong> porque la empresa es insolvente: un <strong>poder notarial de representación</strong>, de <strong>60 a 75 €</strong>, que pagas directamente a la notaría. No es un honorario nuestro.</p></div>
+      </details>
+      <details>
+        <summary data-i18n="fq4">Trabajo fuera de Cataluña, ¿podéis llevar mi caso?</summary>
+        <div class="ans"><p data-i18n-html="fa4">Sí, con una condición: el procedimiento obliga a <strong>desplazarse dos veces</strong> (conciliación y juicio). Si la indemnización estimada es <strong>inferior a 2.500 €</strong>, el viaje no compensa y el test te lo indicará. En ese caso te conviene un abogado laboralista de tu provincia.</p></div>
+      </details>
+      <details>
+        <summary data-i18n="fq5">Ya he firmado el finiquito. ¿Puedo reclamar igualmente?</summary>
+        <div class="ans"><p data-i18n-html="fa5">En la mayoría de casos, sí. Firmar el finiquito no significa renunciar a impugnar el despido. Haz el test y, si sale viable, lo revisamos en los 10 minutos de asesoramiento gratuito.</p></div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CIERRE ══ -->
+<section>
+  <div class="wrap">
+    <div class="finale">
+      <h2 data-i18n="finH">El plazo corre desde el día del despido</h2>
+      <p data-i18n="finP">Veinte días hábiles pasan muy rápido. El test son dos minutos y no te cuesta nada.</p>
+      <div class="cta-row"><a href="#test" class="btn btn-ochre" data-i18n="finCta">Hacer el test de viabilidad</a></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ══ PIE ══ -->
+<footer id="privacidad">
+  <div class="wrap">
+    <ul class="foot-links">
+      <li><a href="#test" data-i18n="ft1">Test de viabilidad</a></li>
+      <li><a href="#honorarios" data-i18n="ft2">Honorarios</a></li>
+      <li><a href="aviso-legal.html" data-i18n="ft3">Aviso legal</a></li>
+      <li><a href="politica-privacidad.html" data-i18n="ft4">Política de privacidad</a></li>
+      <li><a href="politica-cookies.html" data-i18n="ft5">Política de cookies</a></li>
+    </ul>
+    <p class="legalid" data-i18n-html="legalid">
+      <strong>Datos identificativos del prestador del servicio</strong> — art. 10 de la Ley 34/2002 (LSSICE) y normativa colegial:<br>
+      Estela Martín Urbano · NIF 39723873K · Colegiada nº 2365 del Ilustre Colegio de la Abogacía de Tarragona (ICAT) · C/ Roger de Llúria 118, 4-1, 08037 Barcelona · <a href="mailto:estelamartinabogada@gmail.com">estelamartinabogada@gmail.com</a> · <a href="tel:+34649297929">649 29 79 29</a><br>
+      Este sitio ofrece cálculos orientativos que no constituyen asesoramiento jurídico ni generan relación profesional. <strong>El encargo se entenderá aceptado únicamente una vez firmada la hoja de encargo profesional.</strong> © <span class="year">2026</span>.
+    </p>
+  </div>
+</footer>
+
+<div class="sticky-cta"><a href="#test" class="btn btn-primary btn-block" data-i18n="stickyCta">Test de viabilidad gratuito · 2 min</a></div>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LegalService","name":"Defensa Laboral — Abogados de despidos en Cataluña","description":"Abogados laboralistas especializados en despidos en Barcelona, Girona, Tarragona y Lleida. Sin provisión de fondos: honorarios del 15% o 20% sobre la indemnización obtenida.","areaServed":[{"@type":"State","name":"Cataluña"},{"@type":"City","name":"Barcelona"},{"@type":"City","name":"Girona"},{"@type":"City","name":"Tarragona"},{"@type":"City","name":"Lleida"}],"availableLanguage":["es","ca","en"],"priceRange":"Cuota litis 15%-20% + IVA","serviceType":["Despido improcedente","Despido objetivo","Despido disciplinario"]}
+</script>
+
+<script>
+/* ══════════════════ Constantes ajustables ══════════════════ */
+const EMAIL = "estelamartinabogada@gmail.com";   // destino del correo cuando el test sale viable
+const MARGEN_PLAZO = 2;                          // días de margen por festivos antes de dar el plazo por vencido
+const IVA = 0.21;
+const CUTOFF = new Date(2012,1,12);              // 12 de febrero de 2012 · DT 11ª ET
+
+/* ══════════════════ Catalán ══════════════════ */
+const I18N = {
+ca:{
+skip:"Anar al test",
+topbar:"⏳ Només tens 20 dies hàbils des de l'acomiadament per reclamar.",
+topbarLink:"<b>Fes el test ara →</b>",
+brand:"Defensa Laboral", brandSub:"Acomiadaments · Catalunya",
+navTest:"Test", navFees:"Honoraris", navFaq:"Preguntes", navCta:"Test gratuït",
+heroEyebrow:"Advocats d'acomiadaments · Tota Catalunya",
+heroH1:"T'han acomiadat. Ho reclamem i tu <em>no avances ni un euro</em>.",
+heroLede:"Fes el test gratuït: en dos minuts sabràs si el teu cas és viable. Si ho és, et contactem i tens <strong>10 minuts d'assessorament gratuït</strong>. I si tu no cobres, nosaltres no cobrem.",
+heroCta:"Fer el test gratuït · 2 min",
+chip1:"✓ Sense provisió de fons", chip2:"✓ 10 min d'assessorament gratis", chip3:"✓ T'atenem en castellà, català i anglès",
+altHero:"Advocada de l'equip amb maletí a l'entrada del jutjat",
+heroBadge:"No cobrem si tu no cobres<span>Honoraris només a resultat</span>",
+howEyebrow:"Com funciona", howH:"Tres passos senzills",
+s1h:"Fas el test", s1p:"Set preguntes, gratis i sense donar les teves dades. Et diu al moment si el teu cas és viable.",
+s2h:"Si és viable, ens escrius", s2p:"El mateix test et prepara el correu amb les teves respostes. Només hi afegeixes el nom i el telèfon.",
+s3h:"Et contactem nosaltres", s3p:"10 minuts d'assessorament gratuït. Si tirem endavant, reclamem en conciliació i, si cal, al jutjat.",
+altTeam:"Membres de l'equip d'advocats, al despatx i a la sortida del jutjat",
+testEyebrow:"Test de viabilitat · gratuït i anònim", testH:"Val la pena reclamar el teu acomiadament?",
+testLede:"Contesta set preguntes i al moment sabràs si el teu cas és viable. Si ho és, ens podràs escriure des del mateix resultat.",
+q1l:"Pregunta 1 de 7", q1t:"On era el teu centre de treball?",
+q1a:"Província de Barcelona", q1b:"Girona", q1c:"Tarragona", q1d:"Lleida", q1e:"Fora de Catalunya",
+q2l:"Pregunta 2 de 7", q2t:"Com t'han acomiadat?",
+q2a:"Acomiadament disciplinari (m'acusen d'alguna cosa)", q2b:"Acomiadament objectiu (causes econòmiques, productives o organitzatives)", q2c:"Verbal: em van fer fora sense donar-me res per escrit", q2d:"Fi de contracte temporal o no renovació", q2e:"ERO o acomiadament col·lectiu",
+q3l:"Pregunta 3 de 7", q3t:"Tens la carta d'acomiadament i explica els fets i les dates?",
+q3a:"Sí, la tinc i està detallada", q3b:"La tinc, però és genèrica o no n'entenc els motius", q3c:"No m'han donat cap carta",
+q4l:"Pregunta 4 de 7", q4t:"Quin dia et van comunicar l'acomiadament?",
+q5l:"Pregunta 5 de 7", q5t:"Des de quina data treballaves a l'empresa?",
+q5n:"Si vas encadenar contractes temporals sense interrupcions rellevants, posa la data del primer.",
+q6l:"Pregunta 6 de 7", q6t:"Quin era el teu salari brut mensual?", q6a:"Brut al mes (€)", q6b:"Pagues a l'any",
+q7l:"Pregunta 7 de 7", q7t:"Es donava alguna d'aquestes situacions quan et van acomiadar?",
+q7a:"Embaràs, permís de maternitat/paternitat o lactància", q7b:"Baixa mèdica o malaltia", q7c:"Havia reclamat salaris, hores extra o denunciat alguna cosa", q7d:"Representant dels treballadors o delegat sindical", q7e:"Reducció de jornada, conciliació o adaptació horària", q7f:"Cap d'aquestes",
+qBack:"Enrere", qNext:"Següent",
+feeEyebrow:"Honoraris", feeH:"No cobrem si tu no cobres",
+feeLede:"Cobrem un percentatge del que efectivament ingressis. Sense provisió de fons, sense quotes i sense despeses d'obertura. Si el cas es perd, no ens deus res.",
+z1:"de provisió de fons", z2:"si perdem el cas", z3:"d'assessorament inicial gratuït",
+fee1h:"Si la indemnització supera 7.500 €", fee1e:"Exemple: indemnització de <b>20.000 €</b><br>15 % → <b>3.000 €</b> + IVA → <b>3.630 €</b>",
+fee2h:"Si la indemnització és de 7.500 € o menys", fee2e:"Exemple: indemnització de <b>5.000 €</b><br>20 % → <b>1.000 €</b> + IVA → <b>1.210 €</b>",
+feeNote:"Als honoraris s'hi suma l'<strong>IVA (21 %)</strong> o l'impost que correspongui en facturar. La factura s'emet <strong>després</strong> que hagis cobrat. <strong>L'encàrrec s'entén acceptat únicament amb el full d'encàrrec signat.</strong>",
+fogH:"L'única despesa que et pot tocar",
+fogP:"Si l'empresa és insolvent i cal acudir al FOGASA, la llei exigeix un poder notarial de representació. Costa entre 60 i 75 € i el pagues directament a la notaria. T'avisem abans.",
+altAbout:"Quatre membres de l'equip d'advocats",
+aboutEyebrow:"Qui som", aboutH:"Només dret laboral. Només del costat del treballador.",
+aboutLede:"Som un equip d'advocats dedicat a acomiadaments. No defensem empreses, així que mai no hi ha conflicte d'interessos amb tu.",
+ab1:"Barcelona, Girona, Tarragona i Lleida", ab2:"Assessorament per telèfon o videotrucada: no cal que et desplacis", ab3:"T'expliquem el teu cas sense argot. T'atenem en castellà, català i anglès",
+faqEyebrow:"Preguntes freqüents", faqH:"El que tothom ens pregunta",
+fq1:"Què passa si no guanyem el cas?",
+fa1:"No pagues <strong>cap honorari</strong>. Treballem només a resultat: cobrem un percentatge del que tu ingresses. Si tu no ingresses res, nosaltres tampoc. Per això fem el test abans d'acceptar un cas.",
+fq2:"Quant cobreu exactament i quan?",
+fa2:"Un <strong>15 %</strong> si la indemnització supera els 7.500 € i un <strong>20 %</strong> si és de 7.500 € o menys, més l'<strong>IVA (21 %)</strong> o l'impost que correspongui en facturar. La factura s'emet <strong>després</strong> que hagis cobrat. <strong>L'encàrrec s'entén acceptat únicament amb el full d'encàrrec signat.</strong>",
+fq3:"Hi ha alguna despesa que sí que hagi de pagar jo?",
+fa3:"Només una, i només si cal acudir al <strong>FOGASA</strong> perquè l'empresa és insolvent: un <strong>poder notarial de representació</strong>, de <strong>60 a 75 €</strong>, que pagues directament a la notaria. No és un honorari nostre.",
+fq4:"Treballo fora de Catalunya, podeu portar el meu cas?",
+fa4:"Sí, amb una condició: el procediment obliga a <strong>desplaçar-se dues vegades</strong> (conciliació i judici). Si la indemnització estimada és <strong>inferior a 2.500 €</strong>, el viatge no compensa i el test t'ho indicarà. En aquest cas et convé un advocat laboralista de la teva província.",
+fq5:"Ja he signat la quitança. Puc reclamar igualment?",
+fa5:"En la majoria de casos, sí. Signar la quitança no vol dir renunciar a impugnar l'acomiadament. Fes el test i, si surt viable, ho revisem en els 10 minuts d'assessorament gratuït.",
+finH:"El termini corre des del dia de l'acomiadament",
+finP:"Vint dies hàbils passen molt de pressa. El test són dos minuts i no et costa res.",
+finCta:"Fer el test de viabilitat",
+ft1:"Test de viabilitat", ft2:"Honoraris", ft3:"Avís legal", ft4:"Política de privacitat", ft5:"Política de galetes",
+legalid:"<strong>Dades identificatives del prestador del servei</strong> — art. 10 de la Llei 34/2002 (LSSICE) i normativa col·legial:<br>Estela Martín Urbano · NIF 39723873K · Col·legiada núm. 2365 de l'Il·lustre Col·legi de l'Advocacia de Tarragona (ICAT) · C/ Roger de Llúria 118, 4-1, 08037 Barcelona · <a href=\"mailto:estelamartinabogada@gmail.com\">estelamartinabogada@gmail.com</a> · <a href=\"tel:+34649297929\">649 29 79 29</a><br>Aquest lloc ofereix càlculs orientatius que no constitueixen assessorament jurídic ni generen relació professional. <strong>L'encàrrec s'entendrà acceptat únicament un cop signat el full d'encàrrec professional.</strong> © <span class=\"year\">2026</span>.",
+stickyCta:"Test de viabilitat gratuït · 2 min"
+},
+/* ══════════════════ Inglés ══════════════════ */
+en:{
+skip:"Go to the test",
+topbar:"⏳ You only have 20 working days from your dismissal to make a claim.",
+topbarLink:"<b>Take the test now →</b>",
+brand:"Defensa Laboral", brandSub:"Dismissals · Catalonia",
+navTest:"Test", navFees:"Fees", navFaq:"Questions", navCta:"Free test",
+heroEyebrow:"Dismissal lawyers · All of Catalonia",
+heroH1:"You've been dismissed. We make the claim and you <em>don't pay a single euro upfront</em>.",
+heroLede:"Take the free test: in two minutes you'll know if your case is viable. If it is, we contact you and you get <strong>10 minutes of free advice</strong>. And if you don't get paid, we don't get paid.",
+heroCta:"Take the free test · 2 min",
+chip1:"✓ No upfront payment", chip2:"✓ 10 min of free advice", chip3:"✓ We assist you in Spanish, Catalan and English",
+altHero:"Lawyer from our team with a briefcase at the entrance to the court",
+heroBadge:"No win, no fee<span>Fees only if you get paid</span>",
+howEyebrow:"How it works", howH:"Three simple steps",
+s1h:"You take the test", s1p:"Seven questions, free and without giving your details. It tells you right away whether your case is viable.",
+s2h:"If it's viable, you email us", s2p:"The test prepares the email with your answers. You only add your name and phone number.",
+s3h:"We contact you", s3p:"10 minutes of free advice. If we go ahead, we claim at the conciliation hearing and, if needed, in court.",
+altTeam:"Members of our legal team, at the office and leaving the court",
+testEyebrow:"Viability test · free and anonymous", testH:"Is it worth challenging your dismissal?",
+testLede:"Answer seven questions and you'll know straight away whether your case is viable. If it is, you can email us directly from the result.",
+q1l:"Question 1 of 7", q1t:"Where was your workplace?",
+q1a:"Province of Barcelona", q1b:"Girona", q1c:"Tarragona", q1d:"Lleida", q1e:"Outside Catalonia",
+q2l:"Question 2 of 7", q2t:"How were you dismissed?",
+q2a:"Disciplinary dismissal (they accuse me of something)", q2b:"Objective dismissal (economic, production or organisational reasons)", q2c:"Verbal: they let me go without giving me anything in writing", q2d:"End of a temporary contract or non-renewal", q2e:"Collective dismissal (ERE)",
+q3l:"Question 3 of 7", q3t:"Do you have the dismissal letter, and does it explain the facts and dates?",
+q3a:"Yes, I have it and it's detailed", q3b:"I have it, but it's vague or I don't understand the reasons", q3c:"I wasn't given any letter",
+q4l:"Question 4 of 7", q4t:"On what day were you told about the dismissal?",
+q5l:"Question 5 of 7", q5t:"Since what date had you been working for the company?",
+q5n:"If you had back-to-back temporary contracts without significant breaks, enter the date of the first one.",
+q6l:"Question 6 of 7", q6t:"What was your gross monthly salary?", q6a:"Gross per month (€)", q6b:"Payments per year",
+q7l:"Question 7 of 7", q7t:"Did any of these situations apply when you were dismissed?",
+q7a:"Pregnancy, maternity/paternity leave or breastfeeding", q7b:"Sick leave or illness", q7c:"I had claimed unpaid wages or overtime, or reported something", q7d:"Workers' representative or trade union delegate", q7e:"Reduced working hours, work-life balance or adapted schedule", q7f:"None of these",
+qBack:"Back", qNext:"Next",
+feeEyebrow:"Fees", feeH:"No win, no fee",
+feeLede:"We charge a percentage of what you actually receive. No upfront payment, no instalments and no opening fees. If the case is lost, you owe us nothing.",
+z1:"upfront payment", z2:"if we lose the case", z3:"of free initial advice",
+fee1h:"If the compensation is over €7,500", fee1e:"Example: compensation of <b>€20,000</b><br>15 % → <b>€3,000</b> + VAT → <b>€3,630</b>",
+fee2h:"If the compensation is €7,500 or less", fee2e:"Example: compensation of <b>€5,000</b><br>20 % → <b>€1,000</b> + VAT → <b>€1,210</b>",
+feeNote:"<strong>VAT (21 %)</strong>, or whichever tax applies at the time of invoicing, is added to the fees. The invoice is issued <strong>after</strong> you have been paid. <strong>The engagement is only deemed accepted once the engagement letter has been signed.</strong>",
+fogH:"The only cost you might have",
+fogP:"If the company is insolvent and we need to go to FOGASA (the Wage Guarantee Fund), the law requires a notarial power of attorney. It costs between €60 and €75 and you pay it directly to the notary. We'll let you know beforehand.",
+altAbout:"Four members of our legal team",
+aboutEyebrow:"About us", aboutH:"Only employment law. Only on the worker's side.",
+aboutLede:"We are a team of lawyers dedicated to dismissals. We don't represent companies, so there is never a conflict of interest with you.",
+ab1:"Barcelona, Girona, Tarragona and Lleida", ab2:"Advice by phone or video call: you don't need to travel", ab3:"We explain your case without jargon. We assist you in Spanish, Catalan and English",
+faqEyebrow:"Frequently asked questions", faqH:"What everyone asks us",
+fq1:"What happens if we don't win the case?",
+fa1:"You pay <strong>no fees at all</strong>. We only work on results: we charge a percentage of what you receive. If you receive nothing, neither do we. That's why we run the test before taking on a case.",
+fq2:"How much do you charge exactly, and when?",
+fa2:"<strong>15 %</strong> if the compensation is over €7,500 and <strong>20 %</strong> if it is €7,500 or less, plus <strong>VAT (21 %)</strong> or whichever tax applies at the time of invoicing. The invoice is issued <strong>after</strong> you have been paid. <strong>The engagement is only deemed accepted once the engagement letter has been signed.</strong>",
+fq3:"Is there any cost I do have to pay?",
+fa3:"Only one, and only if we need to go to <strong>FOGASA</strong> because the company is insolvent: a <strong>notarial power of attorney</strong>, costing <strong>€60 to €75</strong>, which you pay directly to the notary. It is not a fee of ours.",
+fq4:"I work outside Catalonia. Can you take my case?",
+fa4:"Yes, on one condition: the procedure requires <strong>travelling twice</strong> (conciliation hearing and trial). If the estimated compensation is <strong>under €2,500</strong>, the travel isn't worth it and the test will tell you so. In that case you're better off with an employment lawyer in your own province.",
+fq5:"I've already signed the settlement (finiquito). Can I still make a claim?",
+fa5:"In most cases, yes. Signing the settlement doesn't mean giving up your right to challenge the dismissal. Take the test and, if it's viable, we'll review it in the 10 minutes of free advice.",
+finH:"The clock starts on the day of the dismissal",
+finP:"Twenty working days go by very quickly. The test takes two minutes and costs you nothing.",
+finCta:"Take the viability test",
+ft1:"Viability test", ft2:"Fees", ft3:"Legal notice", ft4:"Privacy policy", ft5:"Cookie policy",
+legalid:"<strong>Service provider identification</strong> — art. 10 of Spanish Law 34/2002 (LSSICE) and professional regulations:<br>Estela Martín Urbano · Tax ID (NIF) 39723873K · Member no. 2365 of the Tarragona Bar Association (ICAT) · C/ Roger de Llúria 118, 4-1, 08037 Barcelona · <a href=\"mailto:estelamartinabogada@gmail.com\">estelamartinabogada@gmail.com</a> · <a href=\"tel:+34649297929\">649 29 79 29</a><br>This site provides estimates that do not constitute legal advice or create a professional relationship. <strong>The engagement will only be deemed accepted once the professional engagement letter has been signed.</strong> © <span class=\"year\">2026</span>.",
+stickyCta:"Free viability test · 2 min"
+}};
+
+/* ══════════════════ Idioma ══════════════════ */
+let LANG = "es";
+const SNAP = {};
+document.querySelectorAll("[data-i18n],[data-i18n-html],[data-i18n-alt]").forEach(el=>{
+  if(el.dataset.i18n) SNAP[el.dataset.i18n] ??= el.textContent;
+  if(el.dataset.i18nHtml) SNAP[el.dataset.i18nHtml] ??= el.innerHTML;
+  if(el.dataset.i18nAlt) SNAP[el.dataset.i18nAlt] ??= el.alt;
+});
+const tr = k => I18N[LANG]?.[k] ?? SNAP[k];
+function setLang(l){
+  LANG = l;
+  document.documentElement.lang = l;
+  document.querySelectorAll("[data-i18n]").forEach(el=>{ el.textContent = tr(el.dataset.i18n); });
+  document.querySelectorAll("[data-i18n-html]").forEach(el=>{ el.innerHTML = tr(el.dataset.i18nHtml); });
+  document.querySelectorAll("[data-i18n-alt]").forEach(el=>{ el.alt = tr(el.dataset.i18nAlt); });
+  document.querySelectorAll(".langsw button").forEach(b=>b.setAttribute("aria-pressed", String(b.dataset.lang===l)));
+  document.querySelectorAll(".year").forEach(y=>y.textContent = new Date().getFullYear());
+  try{ localStorage.setItem("lang", l); }catch(e){}
+  // El idioma viaja también en la dirección (?lang=xx): al abrir los archivos en local, algunos navegadores no comparten localStorage entre páginas
+  document.querySelectorAll('a[href$=".html"],a[href*=".html?"]').forEach(a=>{ a.setAttribute("href", a.getAttribute("href").split("?")[0] + "?lang=" + l); });
+  show(step);
+  if(step>TOTAL) veredicto();
+}
+document.querySelectorAll(".langsw button").forEach(b=>b.addEventListener("click",()=>setLang(b.dataset.lang)));
+
+/* ══════════════════ Utilidades ══════════════════ */
+const $ = id => document.getElementById(id);
+const T = (es,ca,en)=> LANG==="ca" ? ca : LANG==="en" ? en : es;
+const LOCALE = () => ({es:"es-ES", ca:"ca-ES", en:"en-GB"})[LANG];
+const eur = n => new Intl.NumberFormat(LOCALE(),{style:"currency",currency:"EUR",maximumFractionDigits:2}).format(n||0);
+const num = (n,d=1) => new Intl.NumberFormat(LOCALE(),{minimumFractionDigits:d,maximumFractionDigits:d}).format(n||0);
+const hoy = () => { const d=new Date(); d.setHours(0,0,0,0); return d; };
+const parseD = v => { if(!v) return null; const [y,m,d]=v.split("-").map(Number); if(!y) return null; const dt=new Date(y,m-1,d); dt.setHours(0,0,0,0); return dt; };
+
+/* Antigüedad con prorrateo al alza de la fracción de mes */
+function periodo(d1,d2){
+  if(!d1||!d2||d2<=d1) return {y:0,m:0,frac:0};
+  let y=d2.getFullYear()-d1.getFullYear(), m=d2.getMonth()-d1.getMonth(), dd=d2.getDate()-d1.getDate();
+  if(dd<0) m--;
+  if(m<0){ y--; m+=12; }
+  if(dd!==0){ m++; if(m===12){ y++; m=0; } }
+  return {y,m,frac:y+m/12};
+}
+
+/* Días de indemnización según art. 53 y 56 ET y DT 11ª ET (mismo criterio que la calculadora del CGPJ) */
+function diasIndem(alta,baja,tipo){
+  if(tipo==="objetivo"){
+    const p=periodo(alta,baja);
+    return {dias:Math.min(20*p.frac,360), p};
+  }
+  if(alta>=CUTOFF){
+    const p=periodo(alta,baja);
+    return {dias:Math.min(33*p.frac,720), p};
+  }
+  const d1=45*periodo(alta,CUTOFF).frac, d2=33*periodo(CUTOFF,baja).frac;
+  const tope = d1>720 ? Math.min(d1,1260) : 720;   // tope excepcional de 42 mensualidades
+  return {dias:Math.min(d1+d2,tope), p:periodo(alta,baja)};
+}
+
+/* 20 días hábiles: no cuentan sábados ni domingos. Los festivos no se descuentan (de ahí MARGEN_PLAZO). */
+function habilesRestantes(fecha){
+  let contados=0, cur=new Date(fecha);
+  const fin=hoy();
+  while(cur<fin){
+    cur.setDate(cur.getDate()+1);
+    const w=cur.getDay();
+    if(w!==0 && w!==6) contados++;
+  }
+  return 20-contados;
+}
+
+/* ══════════════════ Test de viabilidad ══════════════════ */
+let step=1;
+const TOTAL=7;
+function show(n){
+  step=n;
+  document.querySelectorAll(".q").forEach(q=>q.classList.toggle("on", +q.dataset.step===n));
+  $("prog").style.width = Math.round(Math.min(n,TOTAL)/TOTAL*100)+"%";
+  $("qCount").textContent = n>TOTAL ? T("Resultado","Resultat","Result") : `${n} / ${TOTAL}`;
+  $("qBack").style.visibility = (n===1 || n>TOTAL) ? "hidden" : "visible";
+  $("qNext").textContent = n===TOTAL ? T("Ver resultado","Veure resultat","See result") : (n>TOTAL ? T("Repetir el test","Repetir el test","Retake the test") : T("Siguiente","Següent","Next"));
+  $("qNext").classList.toggle("btn-primary", n<=TOTAL);
+  $("qNext").classList.toggle("btn-ghost", n>TOTAL);
+}
+document.querySelectorAll(".opt input").forEach(inp=>{
+  inp.addEventListener("change",()=>{
+    if(inp.type==="radio"){
+      document.querySelectorAll(`input[name="${inp.name}"]`).forEach(x=>x.closest(".opt").classList.toggle("sel", x.checked));
+    }else{
+      // «Ninguna de estas» es excluyente con el resto
+      const all=[...document.querySelectorAll("#flags input")];
+      if(inp.checked && inp.value==="nada") all.forEach(x=>{ if(x!==inp) x.checked=false; });
+      if(inp.checked && inp.value!=="nada") all.find(x=>x.value==="nada").checked=false;
+      all.forEach(x=>x.closest(".opt").classList.toggle("sel", x.checked));
+    }
+    $("qMsg").textContent="";
+  });
+});
+/* Cada pregunta debe estar contestada: el resultado decide si se ofrece el contacto */
+function contestada(n){
+  const marcado = name => !!document.querySelector(`input[name="${name}"]:checked`);
+  if(n===1) return marcado("zona");
+  if(n===2) return marcado("tipo");
+  if(n===3) return marcado("carta");
+  if(n===4){ const f=parseD($("tFecha").value); return !!f && f<=hoy(); }
+  if(n===5){ const a=parseD($("tAlta").value), f=parseD($("tFecha").value); return !!a && (!f || a<f); }
+  if(n===6) return (parseFloat($("tSal").value)||0)>0;
+  if(n===7) return document.querySelectorAll("#flags input:checked").length>0;
+  return true;
+}
+$("qBack").addEventListener("click",()=>{ $("qMsg").textContent=""; show(Math.max(1,step-1)); });
+$("qNext").addEventListener("click",()=>{
+  if(step>TOTAL){ show(1); return; }
+  if(!contestada(step)){
+    $("qMsg").textContent = step===5
+      ? T("Indica una fecha anterior a la del despido.","Indica una data anterior a la de l'acomiadament.","Enter a date before the dismissal date.")
+      : T("Contesta esta pregunta para continuar.","Contesta aquesta pregunta per continuar.","Answer this question to continue.");
+    return;
+  }
+  $("qMsg").textContent="";
+  if(step===TOTAL){ veredicto(); show(TOTAL+1); }
+  else show(step+1);
+  if($("test").querySelector(".tool").getBoundingClientRect().top < 0) $("test").querySelector(".tool").scrollIntoView({block:"start"});
+});
+
+function veredicto(){
+  const g = n => { const el=document.querySelector(`input[name="${n}"]:checked`); return el?el.value:null; };
+  const zona=g("zona"), tipo=g("tipo"), carta=g("carta");
+  const fDes=parseD($("tFecha").value), fAlt=parseD($("tAlta").value);
+  const sal=parseFloat($("tSal").value)||0, pagas=parseFloat($("tPagas").value)||14;
+  const flags=[...document.querySelectorAll("#flags input:checked")].map(i=>i.value).filter(v=>v!=="nada");
+
+  let bruto=0, dias=0, ant=null;
+  if(fAlt && fDes && fDes>fAlt && sal){
+    const d=diasIndem(fAlt,fDes,tipo==="obj"?"objetivo":"improcedente");
+    dias=d.dias; ant=d.p; bruto=d.dias*(sal*pagas/365);
+  }
+  const restan = fDes ? habilesRestantes(fDes) : null;
+  const pct = bruto>7500 ? 0.15 : 0.20;
+  const neto = bruto - bruto*pct*(1+IVA);   // solo para la regla de distancia; nunca se muestra
+
+  // Solo hay dos resultados: VIABLE o NO VIABLE.
+  const fueraPlazo = restan!==null && restan < -MARGEN_PLAZO;
+  const lejos = zona==="fuera" && neto<2500;
+  const viable = !fueraPlazo && !lejos;
+  let title="", items=[];
+
+  if(fueraPlazo){
+    title=T("El plazo para reclamar el despido ha vencido","El termini per reclamar l'acomiadament ha vençut","The deadline to challenge the dismissal has passed");
+    items.push(T("Han pasado más de 20 días hábiles desde que te comunicaron el despido. Pasado ese plazo la acción caduca y el despido ya no se puede impugnar.","Han passat més de 20 dies hàbils des que et van comunicar l'acomiadament. Passat aquest termini l'acció caduca i l'acomiadament ja no es pot impugnar.","More than 20 working days have passed since you were told about the dismissal. After that deadline the right to challenge it expires."));
+    items.push(T("Otras reclamaciones, como salarios, vacaciones u horas extra pendientes, tienen un plazo distinto de un año.","Altres reclamacions, com salaris, vacances o hores extra pendents, tenen un termini diferent d'un any.","Other claims, such as unpaid wages, holidays or overtime, have a separate one-year deadline."));
+  } else if(lejos){
+    title=T("Por distancia, no podemos asumir este caso","Per distància, no podem assumir aquest cas","Due to the distance, we can't take on this case");
+    items.push(T(`Tu centro de trabajo está fuera de Cataluña y la indemnización que te correspondería (${eur(bruto)}) no alcanza el umbral que hace sostenible el desplazamiento.`,`El teu centre de treball és fora de Catalunya i la indemnització que et correspondria (${eur(bruto)}) no arriba al llindar que fa sostenible el desplaçament.`,`Your workplace is outside Catalonia and the compensation you would be entitled to (${eur(bruto)}) doesn't reach the threshold that makes the travel worthwhile.`));
+    items.push(T("El procedimiento exige dos desplazamientos —conciliación y juicio—. Te recomendamos acudir a un abogado laboralista de tu provincia.","El procediment exigeix dos desplaçaments —conciliació i judici—. Et recomanem acudir a un advocat laboralista de la teva província.","The procedure requires travelling twice —conciliation hearing and trial—. We recommend you see an employment lawyer in your own province."));
+  } else {
+    if(flags.length){
+      title=T("Tu despido podría ser NULO, no solo improcedente","El teu acomiadament podria ser NUL, no només improcedent","Your dismissal could be NULL AND VOID, not just unfair");
+      items.push(T("Las circunstancias que has marcado activan una protección reforzada. Si el despido se declara nulo, la empresa debe readmitirte.","Les circumstàncies que has marcat activen una protecció reforçada. Si l'acomiadament es declara nul, l'empresa t'ha de readmetre.","The circumstances you ticked trigger enhanced protection. If the dismissal is declared null and void, the company must reinstate you."));
+      items.push(T("En los despidos nulos también hay <strong>salarios de tramitación</strong>, que te explicaremos en el asesoramiento inicial.","En els acomiadaments nuls també hi ha <strong>salaris de tramitació</strong>, que t'explicarem en l'assessorament inicial.","In null and void dismissals there are also <strong>back wages (salarios de tramitación)</strong>, which we'll explain in the initial advice session."));
+    } else if(carta==="no" || tipo==="verbal"){
+      title=T("Sin carta de despido, la improcedencia es muy probable","Sense carta d'acomiadament, la improcedència és molt probable","Without a dismissal letter, the dismissal is very likely to be unfair");
+      items.push(T("El despido debe comunicarse por escrito con los hechos y la fecha. Un despido verbal o sin carta se declara improcedente prácticamente siempre.","L'acomiadament s'ha de comunicar per escrit amb els fets i la data. Un acomiadament verbal o sense carta es declara improcedent pràcticament sempre.","A dismissal must be notified in writing, stating the facts and the date. A verbal dismissal or one without a letter is almost always declared unfair."));
+    } else if(carta==="vaga"){
+      title=T("Una carta genérica juega a tu favor","Una carta genèrica juga al teu favor","A vague letter works in your favour");
+      items.push(T("Si la carta no concreta hechos y fechas, no permite defenderse y el despido suele declararse improcedente.","Si la carta no concreta fets i dates, no permet defensar-se i l'acomiadament se sol declarar improcedent.","If the letter doesn't specify facts and dates, you can't properly defend yourself, and the dismissal is usually declared unfair."));
+    } else {
+      title=T("Tu caso tiene recorrido","El teu cas té recorregut","Your case has potential");
+      items.push(T("Hay que revisar la carta y las pruebas de la empresa, pero la reclamación tiene base para negociar un acuerdo en conciliación.","Cal revisar la carta i les proves de l'empresa, però la reclamació té base per negociar un acord en conciliació.","The letter and the company's evidence need reviewing, but the claim has grounds to negotiate a settlement at the conciliation hearing."));
+    }
+    if(tipo==="temp") items.push(T("En contratos temporales conviene revisar si el contrato estaba en fraude de ley: si lo estaba, el fin de contrato pasa a ser un despido improcedente.","En contractes temporals convé revisar si el contracte estava en frau de llei: si ho estava, el fi de contracte passa a ser un acomiadament improcedent.","With temporary contracts it's worth checking whether the contract was unlawful: if it was, the end of the contract becomes an unfair dismissal."));
+    if(restan!==null && restan<=7)
+      items.unshift(T("Tu plazo de 20 días hábiles está avanzado: escríbenos hoy mismo.","El teu termini de 20 dies hàbils està avançat: escriu-nos avui mateix.","Your 20-working-day deadline is running out: email us today."));
+  }
+
+  // Correo ya redactado con las respuestas del test (solo si el caso es viable)
+  const texto = name => { const el=document.querySelector(`input[name="${name}"]:checked`); return el ? el.closest(".opt").querySelector("span").textContent : "—"; };
+  const fecha = d => d ? d.toLocaleDateString(LOCALE()) : "—";
+  const circ = [...document.querySelectorAll("#flags input:checked")].map(i=>i.closest(".opt").querySelector("span").textContent).join("; ") || "—";
+  const asunto = T("Test de viabilidad: caso VIABLE","Test de viabilitat: cas VIABLE","Viability test: VIABLE case");
+  const cuerpo = [
+    T("Hola:","Hola:","Hello,"), "",
+    T("He hecho el test de viabilidad de la web y mi caso ha salido VIABLE. Me gustaría recibir los 10 minutos de asesoramiento gratuito.","He fet el test de viabilitat del web i el meu cas ha sortit VIABLE. M'agradaria rebre els 10 minuts d'assessorament gratuït.","I took the viability test on your website and my case came out VIABLE. I would like to receive the 10 minutes of free advice, in English please."), "",
+    T("Nombre y apellidos: ","Nom i cognoms: ","Full name: "),
+    T("Teléfono de contacto: ","Telèfon de contacte: ","Contact phone: "),
+    T("Mejor horario para contactarme: ","Millor horari per contactar-me: ","Best time to contact me: "), "",
+    T("--- Mis respuestas al test ---","--- Les meves respostes al test ---","--- My test answers ---"),
+    `${T("Centro de trabajo","Centre de treball","Workplace")}: ${texto("zona")}`,
+    `${T("Tipo de despido","Tipus d'acomiadament","Type of dismissal")}: ${texto("tipo")}`,
+    `${T("Carta de despido","Carta d'acomiadament","Dismissal letter")}: ${texto("carta")}`,
+    `${T("Fecha del despido","Data de l'acomiadament","Dismissal date")}: ${fecha(fDes)}`,
+    `${T("Fecha de alta en la empresa","Data d'alta a l'empresa","Start date at the company")}: ${fecha(fAlt)}`,
+    `${T("Salario bruto mensual","Salari brut mensual","Gross monthly salary")}: ${sal} € x ${pagas}`,
+    `${T("Circunstancias","Circumstàncies","Circumstances")}: ${circ}`,
+    `${T("Indemnización estimada","Indemnització estimada","Estimated compensation")}: ${eur(bruto)}`
+  ].join("\n");
+  const mailto = `mailto:${EMAIL}?subject=${encodeURIComponent(asunto)}&body=${encodeURIComponent(cuerpo)}`;
+
+  const contacto = viable ? `
+    <div class="contact">
+      <h5>${T("Escríbenos y te contactamos","Escriu-nos i et contactem","Email us and we'll contact you")}</h5>
+      <p>${T("Envíanos el correo con tu resultado. Te contactaremos y tendrás <strong>10 minutos de asesoramiento gratuito</strong>, sin ningún compromiso.","Envia'ns el correu amb el teu resultat. Et contactarem i tindràs <strong>10 minuts d'assessorament gratuït</strong>, sense cap compromís.","Send us the email with your result. We'll contact you and you'll get <strong>10 minutes of free advice</strong>, with no obligation.")}</p>
+      <div class="cta-row"><a class="btn btn-primary" href="${mailto}">${T("Enviar correo con mi resultado","Enviar correu amb el meu resultat","Send email with my result")}</a></div>
+      <p class="alt">${T("¿No se abre tu programa de correo? Escríbenos a","No s'obre el teu programa de correu? Escriu-nos a","Email app not opening? Write to us at")} <a href="mailto:${EMAIL}">${EMAIL}</a></p>
+      <p class="note">${T("Al escribirnos aceptas que tratemos tus datos únicamente para responder a tu consulta.","En escriure'ns acceptes que tractem les teves dades únicament per respondre la teva consulta.","By writing to us you agree that we process your data solely to respond to your enquiry.")} <a href="politica-privacidad.html?lang=${LANG}">${T("Política de privacidad","Política de privacitat","Privacy policy")}</a>.</p>
+    </div>` : "";
+
+  const cifras = bruto>0 ? `
+    <ul class="liq">
+      <li><span class="k">${T("Antigüedad","Antiguitat","Length of service")}</span><span class="v">${ant.y} ${T("años","anys","years")} ${ant.m} ${T("meses","mesos","months")}</span></li>
+      <li><span class="k">${T("Días de indemnización","Dies d'indemnització","Days of compensation")}</span><span class="v">${num(dias)}</span></li>
+      <li class="total"><span class="k">${T("Indemnización que te correspondería","Indemnització que et correspondria","Compensation you would be entitled to")}</span><span class="v">${eur(bruto)}</span></li>
+    </ul>` : "";
+
+  $("veredicto").innerHTML = `
+    <div class="verdict ${viable ? "v-ok" : "v-no"}">
+      <span class="badge">${viable ? T("Viable","Viable","Viable") : T("No viable","No viable","Not viable")}</span>
+      <h4>${title}</h4>
+      <ul class="checklist">${items.map(i=>`<li><span class="ico">›</span><span>${i}</span></li>`).join("")}</ul>
+      ${cifras}
+      ${contacto}
+      <p class="note">${T("Resultado orientativo generado a partir de tus respuestas. No sustituye el estudio del caso por un abogado.","Resultat orientatiu generat a partir de les teves respostes. No substitueix l'estudi del cas per un advocat.","Indicative result based on your answers. It does not replace a lawyer's review of your case.")}</p>
+    </div>`;
+}
+
+/* ══════════════════ Arranque ══════════════════ */
+(function init(){
+  const h=hoy();
+  // ISO local: toISOString() usa UTC y en España adelantaría un día
+  const iso = d => `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
+  $("tFecha").max = iso(h);
+  $("tAlta").max = iso(h);
+  let saved=new URLSearchParams(location.search).get("lang"); if(!saved){ try{ saved=localStorage.getItem("lang"); }catch(e){} }
+  setLang(["ca","en"].includes(saved) ? saved : "es");
+})();
+</script>
+<!-- Estadísticas de visitas (GoatCounter, sin cookies) -->
+<script data-goatcounter="https://cobratudespidoya.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+# Solo se publica la web. Todo lo demás (notas internas, PDF de clientes, fotos originales,
+# versiones antiguas, copias de conflicto de Proton Drive...) se queda fuera del repositorio.
+*
+!.gitignore
+!.nojekyll
+!index.html
+!aviso-legal.html
+!politica-privacidad.html
+!politica-cookies.html
+!foto-*.jpg
