@@ -3,6 +3,7 @@
 *
 !.gitignore
 !.nojekyll
+!CNAME
 !index.html
 !aviso-legal.html
 !politica-privacidad.html
